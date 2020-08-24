@@ -31,7 +31,9 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: var(--color-Grey-dark-2);
-  background-color: white; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .content {
   display: flex;
@@ -127,10 +129,13 @@ body {
     background-color: var(--color-Grey-light-1); }
 
 .dark {
-  background-color: black; }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(3, 3, 3, 0.5)), url(/img/background.jpg); }
 
 .dark-recipe {
   border: solid 4px var(--color-primary-light) !important; }
+
+.dark-text {
+  color: white; }
 
 .recipe {
   display: flex;

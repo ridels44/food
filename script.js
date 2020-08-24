@@ -5,6 +5,7 @@ const imgText = document.querySelector(".modal-img__caption");
 
 const toggle = document.querySelector(".toggle");
 const circle = document.querySelector(".circle");
+const darkText = document.querySelector(".dark-mode p");
 
 const recipePhoto = document.querySelectorAll(".recipe__photo");
 
@@ -27,6 +28,7 @@ modal.addEventListener("click", (e) => {
 
 toggle.addEventListener("click", () => {
   circle.classList.toggle("move");
+  darkText.classList.toggle("dark-text");
   document.body.classList.toggle("dark");
   recipePhoto.forEach((recipe) => {
     recipe.classList.toggle("dark-recipe");
