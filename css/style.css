@@ -129,7 +129,7 @@ body {
     background-color: var(--color-Grey-light-1); }
 
 .dark {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(3, 3, 3, 0.5)), url(/img/background.jpg); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(3, 3, 3, 0.5)), url(../img/background.jpg); }
 
 .dark-recipe {
   border: solid 4px var(--color-primary-light) !important; }
