@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: var(--color-Grey-dark-2);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/background.jpg);
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.863), rgba(247, 140, 39, 0.356)), url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -187,6 +187,8 @@ body {
     padding: 0.5rem 1rem;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s; }
+    .list__item-active {
+      border-bottom: 2px solid var(--color-primary-dark); }
   .list__item:hover {
     border-bottom: 2px solid var(--color-primary-dark); }
   .list__link {
