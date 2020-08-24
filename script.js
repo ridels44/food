@@ -13,7 +13,7 @@ previews.forEach((preview) => {
     modal.classList.add("modal-img-open");
     original.classList.add("modal-img__full-open");
     const originalSrc = preview.getAttribute("data-orginal");
-    original.src = `/img/${originalSrc}.jpg`;
+    original.src = `./img/${originalSrc}.jpg`;
     imgText.textContent = preview.alt;
   });
 });
